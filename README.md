@@ -1,23 +1,23 @@
 ### Install
 
 ``` javascript
- $ npm i list2tree -D
+ $ npm i li2tree -D
 ```
 
 ### Import
 
 ``` javascript
- import List2tree from "list2tree"
+ import Li2tree from "li2tree"
 ```
 
 ### USAGE
 
 ``` javascript
- import List2tree from "list2tree"
+ import Li2tree from "li2tree"
 
- const list2tree = new List2tree(listDdata, options)
+ const li2tree = new Li2tree(listDdata, options)
 
- const treeData = list2tree.convert();
+ const treeData = li2tree.convert();
 
 // listData: 列表数据
 //  defaultOptions: {
@@ -30,16 +30,16 @@
 ### DEMO
 
 ``` javascript
- import List2tree from "list2tree";
+ import Li2tree from "li2tree";
 
  const listData = [
     { id: 1, pid: 0 },
     { id: 2, pid: 1 }
 ]
 
- const list2tree = new List2tree(listDdata)
+ const li2tree = new Li2tree(listDdata)
 
- const treeData = list2tree.convert()
+ const treeData = li2tree.convert()
 
  console.log(treeData)
 

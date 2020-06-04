@@ -4,7 +4,7 @@ const defaultOptions = {
     id: 'id'
 }
 
-class List2tree {
+class Li2tree {
     constructor(listData, options = defaultOptions) {
         this.listData = listData;
         this.top = options.top;
@@ -35,4 +35,4 @@ class List2tree {
 
 }
 
-export default List2tree;
+export default Li2tree;
