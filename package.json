@@ -1,0 +1,20 @@
+{
+  "name": "list2tree",
+  "version": "1.0.0",
+  "description": "list data to tree data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrynie/list2tree"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "list",
+    "tree",
+    "data"
+  ],
+  "author": "carrynie",
+  "license": "ISC"
+}
